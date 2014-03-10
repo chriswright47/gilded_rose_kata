@@ -4,9 +4,6 @@ def update_quality(items)
   end
 end
 
-# DO NOT CHANGE THINGS BELOW -----------------------------------------
-
-# Item = Struct.new(:name, :sell_in, :quality)
 class Item
   attr_accessor :name, :sell_in, :quality
   def initialize(name, sell_in, quality)
@@ -71,6 +68,7 @@ class Sulfuras < Item
   def update
   end
 end
+
 # We use the setup in the spec rather than the following for testing.
 #
 # Items = [
